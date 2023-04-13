@@ -1,0 +1,383 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline:none; border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d7f1b3;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*Navigation Bar*/
+
+.header {
+    position: static;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background-color: #ffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    display: flex;
+}
+
+.header h2 {
+    color:#ffff;
+}
+
+.header img {
+    position: absolute;
+
+    width: 225px;
+    height: 200px;
+}
+
+#booking {
+    display: inline-block;
+    align-items: right;
+    background-color: #fa9c1b;
+    color: #ffff;
+    font-size: 23px;
+    font-weight: 350;
+    font-family: 'Montserrat';
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navbtn {
+    display: inline-block;
+    align-items: right;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #fa9c1b;
+    padding: 15px;
+    font-weight: 550;
+}
+
+#sales-report {
+    padding-right: 50px;
+}
+
+/*Backgound-1*/
+
+#background1 {
+    position: static;
+    width: 100%;
+    height: 75rem;
+    z-index: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    outline:none; border: none;
+    text-decoration: none;
+    transition: .5s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #8ec03f;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: .5rem;
+}
+.availability{
+    padding: 5rem 7%;
+}
+/*header*/
+.header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3%;
+    padding-right: 0px;
+}
+.header .logo img{
+    position: absolute;
+    z-index: 1000;
+    width: 250px;
+    height: 200px;
+    top: -4rem;
+}
+.header .navbar a {
+    font-size: 2rem;
+    color: black;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-weight: bolder;
+}
+.header .navbar a:hover{
+    color: #DF9114;
+    transition: 0.7s;
+}
+.btn {
+    display: inline-block;
+    align-items: right;
+    background-color: #ec9706;
+    color: #ffff;
+    font-size: 23px;
+    font-weight: 350;
+    font-family: 'Montserrat';
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 3px;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
+}
+.header .navbar .btn {
+    margin: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 2rem;
+}
+.btn:hover {
+    background: #f8d568;
+    transition: 0.7s;
+}
+.header .navbar .btn:hover{
+    color: white;
+}
+
+
+#box1 img {
+    position: relative;
+    width: 70rem;
+    height: 50rem;
+    padding: 2rem;
+}
+
+#box1 {
+    position: relative;
+    top: 15rem;
+    left: 1rem;
+    background-color: #fff;
+    width: 70rem;
+    height: 50rem;
+}
+
+#box2 {
+    position: relative;
+    top: -35rem;
+    left: 72rem;
+    background-color: #fff;
+    width: 70rem;
+    height: 50rem;
+}
+
+#box1:hover {
+    transform: scale(1.07);
+    transition: 0.5s;
+    box-shadow: 0 5px 5px #000;
+}
+
+#box2 p {
+    font-size: 1.9rem;
+    font-family: 'Montserrat';
+    color: rgb(39, 54, 38);
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    line-height: 6rem;
+    text-align: justify;
+}
+
+.check {
+    position: relative;
+    margin-left: 8rem;
+    margin-top: rem;
+    width: 5rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.Features {
+    position: relative;
+    margin-top: -25rem;
+    background-color: #fff;
+    width: 100%;
+    padding: 5rem;
+}
+
+.Features ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.Features h2 {
+    color: black;
+    font-size: 6rem;
+}
+
+.Features ul {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.check1 {
+    position: relative;
+    margin-left: 8rem;
+    margin-top: rem;
+    width: 5rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.Amenities {
+    position: relative;
+    margin-top: -40rem;
+    background-color: #fff;
+    width: 100%;
+    padding: 5rem;
+}
+
+.Amenities ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.Amenities h2 {
+    color: black;
+    font-size: 6rem;
+}
+
+.Amenities ul {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+.wrapper .carousel {
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carousel img {
+    height: 340px;
+    width: calc(100%/3);
+    object-fit: cover;
+    margin-left: 14px;
+}
+
+.wrapper {
+    max-width: 1150px;
+    display: flex;
+    min-height: 100vh;
+    cursor: pointer;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    position: relative;
+}
+
+.wrapper i {
+    top: 14rem;
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    color: #000;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2.5rem;
+    position: absolute;
+    
+}
+
+.wrapper i:first-child {
+    left: -23px;
+    display: none;
+}
+
+.wrapper i:last-child {
+    right: -23px;
+}
+#left {
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    color: #000;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+#anahaw {
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #fa9c1b;
+    margin-top: 12rem;
+    z-index: 500;
+    font-style: none;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+
+.check2 {
+    position: relative;
+    margin-left: 8rem;
+    margin-top: rem;
+    width: 5rem;
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.Pricing {
+    position: relative;
+    margin-top: 0rem;
+    background-color: #fff;
+    width: 100%;
+    padding: 5rem;
+    left: -5rem;
+}
+
+.Pricing ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.Pricing h2 {
+    color: black;
+    font-size: 6rem;
+}
+
+.Pricing ul {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}

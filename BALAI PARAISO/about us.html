@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900display=swap');
+body {
+    font-family: Poppins;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 7px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #9ce7f8ea;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <h2>Get to know the Scientians behind this travel website</h2>
+  <h3>Group 8 - Faraday</h3>
+</div>
+
+<h1 style="text-align:center">Our Team</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="rex.jpg" alt="Rex" style="width:100%">
+      <div class="container">
+        <h2>Rex Jaap Alvar</h2>
+        <p class="title">Coder</p>
+        <p>Rewarding talaga sa pakiramdam na nakabuo kami ng travel website</p>
+        <p>rjalvar.tshs@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="cassie.jpg" alt="Cassie" style="width:100%">
+      <div class="container">
+        <h2>Cassandra Santos</h2>
+        <p class="title">Layout Artist</p>
+        <p>Para sa amin, it was really a great and memorable learning experience!</p>
+        <p>csantos.tshs@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="card">
+      <img src="joanna.jpg" alt="Joanna" style="width:100%">
+      <div class="container">
+        <h2>Joanna Beth Budy</h2>
+        <p class="title">Researcher</p>
+        <p>Ang saya po nag enjoy ako. Worth it ang mahabang pagtutok sa screen</p>
+        <p>jbudy.tshs@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="gian.jpg" alt="Gian" style="width:100%">
+      <div class="container">
+        <h2>Gian Xerxes Guevarra</h2>
+        <p class="title">Editor</p>
+        <p>I had fun creating this website with my groupmates!</p>
+        <p>gxguevarra.tshs@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+    

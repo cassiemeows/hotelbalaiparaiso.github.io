@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="lakan.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <title>Hotel</title>
+</head>
+<body>
+<!--header-->
+   <header class="header">
+      <a href="#home" class="logo"><img src="BALAI PARAISO LOGO-2.png"></a>
+         <nav class="navbar">
+            <a href="balai.html">ABOUT</a>
+            <a href="policy.html">POLICY</a>
+            <a href="balai.html">PROGRAMS</a>
+            <a href="balai.html">VILLAS</a>
+            <a href="about us.html">CONTACT</a>
+            <a href="table.html">SALES REPORT</a>
+            <a href="booking.html" class="btn">BOOK NOW</a>
+         </nav>
+    </header>
+        <h1 id="anahaw">Lakan Villa</h1>
+    <div id="box1">
+        <img src="lakanvilla.png" alt="1">
+     </div>
+     
+     <div id="box2">
+        <p id="box2p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Balai Paraiso’s most exclusive accommodation, The Lakan provides the ultimate in luxury with two bedrooms, en-suite bathrooms including indoor shower and bathtub, central living area, walled in gardens with koi ponds, a kitchenette & bar area, maid’s quarters and a swimming pool. The Lakan is excellent for two couples traveling together, a group of friends or a family getaway. The Lakan is 372 square meters (indoor area), 78 square meters (pool deck area), 61 square meters (pool area).</b></p>
+     </div>
+
+     <div class="Features">
+        <h2 id="features">Features:</h2>
+        <div class="list">
+            <ul>
+                <li><img src="check.png" alt="check" class="check">Swimming pool and relaxation bale</li>
+                <li><img src="check.png" alt="check" class="check">Spacious living area and dining area</li>
+                <li><img src="check.png" alt="check" class="check">Walled in garden</li>
+                <li><img src="check.png" alt="check" class="check">50" Netflix-ready Smart TV with USB port, upon request</li>
+                <li><img src="check.png" alt="check" class="check">iPad docking station</li>
+                <li><img src="check.png" alt="check" class="check">Indoor bathtub</li>
+                <li><img src="check.png" alt="check" class="check">Indoor rain and handheld shower</li>
+                <li><img src="check.png" alt="check" class="check">Kitchenette and bar area (microwave, built-in stove, utensils included</li>
+                <li><img src="check.png" alt="check" class="check">Outdoor hand shower</li>
+                <li><img src="check.png" alt="check" class="check">Quarters with bathroom</li>
+            </ul>
+        </div>
+     </div>
+     <br><br><br><br><br>
+     <div class="wrapper">
+    
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+            
+            <img src="17.png" alt="1">
+            <img src="18.png" alt="1">
+            <img src="19.png" alt="1">
+            <img src="20.png" alt="1">
+            <img src="21.png" alt="1">
+            <img src="22.png" alt="1">
+            <img src="23.png" alt="1">
+            <img src="24.png" alt="1">
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+     </div>
+
+     <div class="Amenities">
+        <h2 id="amenities">Room Amenities:</h2>
+        <div class="list">
+            <ul>
+                <li><img src="check.png" alt="check" class="check1">Bed type: 2 twin beds</li>
+                <li><img src="check.png" alt="check" class="check1">Air-conditioned room</li>
+                <li><img src="check.png" alt="check" class="check1">iPad docking station upon request</li>
+                <li><img src="check.png" alt="check" class="check1">High speed WIFI connection</li>
+                <li><img src="check.png" alt="check" class="check1">In-room safety deposit box</li>
+                <li><img src="check.png" alt="check" class="check1">Handmade bath amenities</li>
+                <li><img src="check.png" alt="check" class="check1">Hairdryer</li>
+                <li><img src="check.png" alt="check" class="check1">Bathrobes</li>
+                <li><img src="check.png" alt="check" class="check1">Complimentary drinking water</li>
+                <li><img src="check.png" alt="check" class="check1">Hot water kettle and herbal teas</li>
+                <li><img src="check.png" alt="check" class="check1">Private garden and lanais</li>
+            </ul>
+        </div>
+        <div class="Pricing">
+            <h2 id="pricing">Prices:</h2>
+            <div class="list">
+                <ul>
+                    <li><img src="check.png" alt="check" class="check2">Lakan Villa - ₱30,000 per night</li>
+                    <li><img src="check.png" alt="check" class="check2">Anahaw Family Villa - ₱20,000 per night</li>
+                    <li><img src="check.png" alt="check" class="check2">Sulu Terrace - ₱10,000 per night</li>
+                </ul>
+            </div>
+         </div>
+     </div>
+
+
+     <script>
+        const carousel = document.querySelector(".carousel"),
+        firstImg = carousel.querySelectorAll("img")[0];
+        arrowIcons = document.querySelectorAll(".wrapper i");
+
+        let isDragStart = false, prevPageX, prevScrollLeft;
+        let firstImgWidth = firstImg.clientWidth + 360;
+        let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
+
+        const showHideIcons = () => {
+            arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
+            arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
+        }
+
+        arrowIcons.forEach(icon => {
+            icon.addEventListener("click", () => {
+                carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
+                setTimeout(() => showHideIcons(), 60);
+            });
+        });
+
+        const dragStart = (e) => {
+            isDragStart = true;
+            prevPageX = e.pageX;
+            prevScrollLeft = carousel.scrollLeft;
+        }
+
+        const dragging = (e) => {
+            if(!isDragStart) return;
+            e.preventDefault()
+            let positionDiff = e.pageX - prevPageX;
+            carousel.scrollLeft = prevScrollLeft - positionDiff;
+        }
+
+        const dragStop = () => {
+            isDragStart = false;
+        }
+
+        carousel.addEventListener("mousedown", dragStart)
+        carousel.addEventListener("mousemove", dragging)
+        carousel.addEventListener("mouseup", dragStop)
+     </script> 
+</body>
+</html>
+<!--end-->
